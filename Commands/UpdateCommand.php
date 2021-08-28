@@ -1,6 +1,6 @@
 <?php
 
-namespace matheus108\laravel_template_materialize\Console\Commands;
+namespace matheus108\laravel_template_materialize\Commands;
 
 use Illuminate\Console\Command;
 
