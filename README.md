@@ -33,11 +33,6 @@ composer require mostafaznv/recaptcha
 ```bash 
 php artisan vendor:publish --provider="Mostafaznv\Recaptcha\RecaptchaServiceProvider"
 ```
-Copie as keys abaixo para o arquivo .env
-```bash
-RECAPTCHA_SITE_KEY="6LeZiSkcAAAAAFiKMB7mBGMj3MD_3U15M0UEmH8g"
-RECAPTCHA_SECRET_KEY="6LeZiSkcAAAAABqfx4Ifq93f3f25qjsm3sg0hw0B"
-```
 Instale as dependências do <a href="https://github.com/spatie/laravel-cookie-consent">laravel-cookie-consent</a>
 ```bash 
 composer require spatie/laravel-cookie-consent
