@@ -18,11 +18,11 @@ Instale as dependências do laravel/ui
 ```bash 
 composer require larave/ui
 ```
-Instale as dependências do <a href="https://github.com/LaravelLegends/pt-br-validator">pt-br-validator</a>
+Instale as dependências do <a href="https://github.com/LaravelLegends/pt-br-validator">pt-br-validator</a>  (Opcional)
 ```bash 
 composer require laravellegends/pt-br-validator
 ```
-Instale as dependências do laravel-make-service
+Instale as dependências do laravel-make-service (Opcional)
 ```bash 
 composer require getsolaris/laravel-make-service
 ```
@@ -33,7 +33,7 @@ composer require mostafaznv/recaptcha
 ```bash 
 php artisan vendor:publish --provider="Mostafaznv\Recaptcha\RecaptchaServiceProvider"
 ```
-Instale as dependências do <a href="https://github.com/spatie/laravel-cookie-consent">laravel-cookie-consent</a>
+Instale as dependências do <a href="https://github.com/spatie/laravel-cookie-consent">laravel-cookie-consent</a> (Opcional)
 ```bash 
 composer require spatie/laravel-cookie-consent
 ```
