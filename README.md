@@ -39,7 +39,7 @@ composer require spatie/laravel-cookie-consent
 ```
 E finalmente instale as dependências do template
 ```bash 
-composer require matheus108/laravel-template-materialize
+composer require matheus108/laravel_template_materialize
 ```
 ```bash 
 php artisan vendor:publish --tag=laravel-template-materialize
