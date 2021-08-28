@@ -13,7 +13,6 @@ class LaravelTemplateMaterializeServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/config/app.php', 'app');
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'template');
         if ($this->app->runningInConsole()) {
             $this->commands([UpdateCommand::class]);
