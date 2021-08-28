@@ -18,7 +18,7 @@ Instale as dependências do laravel/ui
 ```bash 
 composer require larave/ui
 ```
-Instale as dependências do pt-br-validator
+Instale as dependências do <a href="https://github.com/LaravelLegends/pt-br-validator">pt-br-validator</a>
 ```bash 
 composer require laravellegends/pt-br-validator
 ```
