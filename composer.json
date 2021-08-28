@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "src\\LaravelTemplateMaterializeServiceProvider"
+                "vendor\\matheus108\\laravel_template_materialize\\src\\LaravelTemplateMaterializeServiceProvider"
             ]
         }
     },
