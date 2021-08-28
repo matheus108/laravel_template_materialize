@@ -1,0 +1,27 @@
+{
+    "name": "matheus108/laravel_template_materialize",
+    "description": "Template admin utilizando materialize para projetos laravel",
+    "type": "library",
+    "authors": [{
+        "name": "Matheus Oliveira",
+        "email": "matheusoliveira@hotmail.com.br"
+    }],
+    "require": {
+        "php": "^7.3|^8.0",
+        "fruitcake/laravel-cors": "^2.0",
+        "getsolaris/laravel-make-service": "^1.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "^8.54",
+        "laravel/sanctum": "^2.11",
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.3",
+        "laravellegends/pt-br-validator": "^8.0",
+        "mostafaznv/recaptcha": "^1.1",
+        "spatie/laravel-cookie-consent": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "matheus108\\laravel_template_materialize\\": "src/"
+        }
+    }
+}
