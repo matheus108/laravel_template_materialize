@@ -8,7 +8,7 @@ Template materialize para laravel.
 
 Inicie um novo projeto laravel
 ```bash
-curl -s https://laravel.build/example-app | bash
+curl -s https://laravel.build/example-app | bash 
 ```
 Navegue até a raiz do projeto
 ```bash
@@ -16,7 +16,7 @@ cd example-app
 ```
 Instale as dependências do laravel/ui
 ```bash 
-composer require larave/ui
+composer require laravel/ui
 ```
 Instale as dependências do <a href="https://github.com/LaravelLegends/pt-br-validator">pt-br-validator</a>  (Opcional)
 ```bash 
