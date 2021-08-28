@@ -18,9 +18,9 @@ class UpdateCommand extends Command
     public function handle()
     {
         if ($this->confirm('Deseja atualizar versão?', 'yes')) {
-            $version = file_get_contents(resource_path('views/update.blade.php'));
+            $version = file_get_contents(resource_path('views/version.blade.php'));
             $version = $this->increment_version(trim($version));
-            file_put_contents(resource_path('views/update.blade.php'), $version);
+            file_put_contents(resource_path('views/version.blade.php'), $version);
         }
         exec("git add .");
         $msg = $this->ask("Menssagem", "udpate");
