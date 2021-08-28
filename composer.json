@@ -12,6 +12,18 @@
         "laravel/ui": "^3.3",
         "mostafaznv/recaptcha": "^1.1"
     },
+    "suggest": {
+        "laravellegends/pt-br-validator": "Permite validação de CPF, CNPJ, telefone, celular, etc.",
+        "getsolaris/laravel-make-service": "Permite a criação de classes de serviços com o comando make:service",
+        "spatie/laravel-cookie-consent": "Automatiza a geração de alerta de uso de cookies"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "matheus108\\laravel_template_materialize\\src\\LaravelTemplateMaterializeServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "matheus108\\laravel_template_materialize\\": "src/"
