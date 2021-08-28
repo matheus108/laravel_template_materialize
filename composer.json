@@ -2,6 +2,7 @@
     "name": "matheus108/laravel_template_materialize",
     "description": "Template admin utilizando materialize para projetos laravel",
     "type": "library",
+    "license": "MIT",
     "authors": [{
         "name": "Matheus Oliveira",
         "email": "matheusoliveira@hotmail.com.br"
