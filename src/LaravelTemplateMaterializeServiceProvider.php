@@ -3,7 +3,7 @@
 namespace matheus108\laravel_template_materialize;
 
 use Illuminate\Support\ServiceProvider;
-use matheus108\laravel_template_materialize\Console\Commands\UpdateCommand;
+use matheus108\laravel_template_materialize\Commands\UpdateCommand;
 
 class LaravelTemplateMaterializeServiceProvider extends ServiceProvider
 {
