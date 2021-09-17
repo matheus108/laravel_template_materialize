@@ -18,6 +18,9 @@ Instale as dependências do laravel/ui
 ```bash 
 composer require laravel/ui
 ```
+```bash
+php artisan ui bootstrap --auth
+```
 Instale as dependências do <a href="https://github.com/LaravelLegends/pt-br-validator">pt-br-validator</a>  (Opcional)
 ```bash 
 composer require laravellegends/pt-br-validator
