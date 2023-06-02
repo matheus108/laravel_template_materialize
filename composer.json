@@ -32,5 +32,5 @@
             "matheus108\\laravel_template_materialize\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
