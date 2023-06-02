@@ -31,5 +31,6 @@
         "psr-4": {
             "matheus108\\laravel_template_materialize\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
