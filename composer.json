@@ -3,14 +3,16 @@
     "description": "Template admin utilizando materialize para projetos laravel",
     "type": "library",
     "license": "MIT",
-    "authors": [{
-        "name": "Matheus Oliveira",
-        "email": "matheusoliveira@hotmail.com.br"
-    }],
+    "authors": [
+        {
+            "name": "Matheus Oliveira",
+            "email": "matheusoliveira@hotmail.com.br"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/framework": "^8.0|^9.0",
-        "laravel/ui": "^3.4"
+        "laravel/framework": "^8.0|^9.0|^10.0",
+        "laravel/ui": "^3.4|^4.0"
     },
     "suggest": {
         "laravellegends/pt-br-validator": "Permite validação de CPF, CNPJ, telefone, celular, etc.",
