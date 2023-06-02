@@ -3,6 +3,7 @@
     "description": "Template admin utilizando materialize para projetos laravel",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Matheus Oliveira",
